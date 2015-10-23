@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* navigation section */
+.top-navigation {
+    background-color: rgb(255, 255, 255);
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 1.04rem; 
+    margin-top: 1.7rem;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+/* introduction section */
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
+.introduction > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+{
+
+.content h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.introduction h3 {
+    margin-top: 17.5rem;
+    font-size: 2.125rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+    
+
+/* icon section */
+.icons {
+    height: 10em;
+    background-color: aquamarine;
+}
+.icons li {
+    display: inline-block;
+}
+
+/* footer section */
+footer {
+    height: 10em;
+    background-color: bisque;
+}
