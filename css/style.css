@@ -6,14 +6,19 @@ html {
 }
 
 /* navigation section */
+
 .top-navigation {
     background-color: rgb(255, 255, 255);
 }
+
 .top-navigation > .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0 0.938rem;
+    min-width: 37.5rem;
 }
+
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -22,10 +27,12 @@ html {
     margin-top: 1.7rem;
     -webkit-font-smoothing: antialiased;
 }
+
 .top-navigation .links li {
     display: inline-block;
     margin-left: 1.563rem;
 }
+
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 500;
@@ -54,7 +61,6 @@ html {
 
 .content {
     margin-top: 17.5rem;
-    color: #FFFFFF;
     text-align: center;
 }  
 
@@ -62,39 +68,98 @@ html {
     font-size: 30pt;
     font-weight: 300;
     padding-top: 200px;
+    color: #FFFFFF;
 }
 
 .content > h3 {
     font-size: 20pt;
     font-weight: 300;
+    color: #FFFFFF;
 }
 
-.big-button {
-    margin:0 auto;
+.content > button {
+    width:  9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 16px 26px;
-    line-height: 1.33;
-    width: 9.688rem;
-    background-color: #f15a29;
-    border-color: #f15a29;
-    color: white;
+    padding: 1rem 1.5rem;
     font-size: 1.125rem;
+    color: white;
+}
+
+.content > button > .active {
+    color: #f15a29;
+}
+
+.content > button:hover {
+    cursor: pointer;
+    background-color: #d9400e;
 }
 
 
 /* icon section */
 .icons {
-    height: 10em;
-    background-color: aquamarine;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
 }
-.icons li {
+
+.content {
+    margin: 0;
+    text-align: center;
+    color: black;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    box-sizing: inherit;
+}
+
+.content > h2 {
+    font-size: 2.75rem;
+    margin: 1rem 0 1rem;
+    font-weight: 300;
+    vertical-align: baseline;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content > h3 {
+    font-size: 1.563rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 100;
+}
+
+.icons .devices li {
     display: inline-block;
+    margin: 0;
+    padding: 2em;
+    border: none;
+    box-sizing: border-box;
+    height: 4em;
+    list-style: none;
+}
+
+ul.devices {
+    padding-left: 0;
 }
 
 /* footer section */
-footer {
+.footer {
     height: 10em;
-    background-color: bisque;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    text-align: center;
+}
+
+.content > .icons li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+
+ul.icons {
+    padding: 0;
 }
